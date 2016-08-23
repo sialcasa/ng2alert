@@ -3,11 +3,9 @@
 </h1>
 
 <div>
-  <a href="">Home</a>
-  <a href="">Alerts</a>
+  <a [routerLink]="['home']">Home</a>
+  <a [routerLink]="['alert']">Alerts</a>
 </div>
 
-<app-home></app-home>
-
-<app-alert></app-alert>
+<router-outlet></router-outlet>
 
